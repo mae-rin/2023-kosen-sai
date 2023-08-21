@@ -1,18 +1,28 @@
 .wrap{
     display: flex;
+    font-family: 'Hina Mincho', serif;
+    width:80%;
+    height:80%;
+    margin:0 auto;
 }
 
-@media screen and (min-width:1024){
+@media screen and (min-width:1024px){
     .left{
         width:50%;
     }
+
+    .left_img{
+        background-color: gray;
+        width:80%;
+        height:80%;
+    }
     
-    .write{
+    .right{
         width:50%;
+    }
+
+    .title{
+        font-size: 30px;
     }
 }
 
-
-.title{
-
-}
