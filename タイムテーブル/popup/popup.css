@@ -1,0 +1,18 @@
+.wrap{
+    display: flex;
+}
+
+@media screen and (min-width:1024){
+    .left{
+        width:50%;
+    }
+    
+    .write{
+        width:50%;
+    }
+}
+
+
+.title{
+
+}
